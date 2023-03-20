@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Api Testing Suite" configfailurepolicy="continue">
+<!--    <listeners>-->
+<!--        <listener class-name="io.dummy_api.log.PlainTextReporter"/>-->
+<!--    </listeners>-->
+    <test name="Test User">
+
+        <classes>
+            <class name="io.dummy_api.user.GetUsersTest">
+                <methods>
+
+                </methods>
+
+            </class>
+
+            <class name="io.dummy_api.user.CreateNewUserTest">
+
+            </class>
+
+            <class name="io.dummy_api.user.DeleteUserTest">
+
+            </class>
+
+            <class name="io.dummy_api.user.UpdateUserTest">
+
+            </class>
+        </classes>
+
+    </test>
+
+<!--    <test name="Test Post Endpoint">-->
+
+<!--        <classes>-->
+<!--            <class name="io.dummy_api.post.DeletePostTest">-->
+
+<!--            </class>-->
+
+<!--            <class name="io.dummy_api.post.CreatePostTest">-->
+
+<!--            </class>-->
+
+<!--            <class name="io.dummy_api.post.GetAllPostsTest">-->
+
+<!--            </class>-->
+
+<!--            <class name="io.dummy_api.post.GetPostsByUserTest">-->
+
+<!--            </class>-->
+<!--            <class name="io.dummy_api.post.GetPostByIdTest">-->
+
+<!--            </class>-->
+<!--            <class name="io.dummy_api.post.UpdatePostTest">-->
+
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test Tag Endpoint">-->
+<!--        <classes>-->
+<!--            <class name="io.dummy_api.tag.GetTagsTest">-->
+
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
